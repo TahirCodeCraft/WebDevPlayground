@@ -1,0 +1,111 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(flower.jpg);
+    background-size: 1300px;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 75px;
+    top: 30px;
+}
+
+
+.mid {
+    /* border: 2px solid yellow; */
+    margin: 50px auto;
+    width: 600px;
+
+}
+
+.right {
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+}
+
+.navbar li a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(35, 120, 160, 0.39);
+    margin: 0px 12px;
+    padding: 3px 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid white;
+
+}
+
+.btn:hover {
+    background-color: rgba(35, 120, 160, 0.698);
+    text-decoration: underline;
+}
+
+.left img {
+    filter: invert(100%);
+    width: 75px;
+    margin: auto;
+    display: block;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    padding: 30px;
+    width: 540px;
+}
+
+.form-group {
+    margin: auto;
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    text-align: center;
+    width: 415px;
+    margin: 5px auto;
+    padding: 4px;
+    display: block;
+    font-size: 20px;
+}
