@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(99, 212, 99);
+        }
+        table{
+            width: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>CUI Job Form for Tahir Ahmed Khan (SP21-BSE-086)</h1></center>
+    <form>
+        <fieldset>
+            <legend><h1>CUI Data</h1></legend>
+            <table border="1" cellpadding="10" cellspacing="25">
+                <tr>
+                    <td><img src="library.jpg" alt="image unavailable" height="200px" width="1100px"></td>
+                    <th><h1 style="color: cyan; background-color: black;">COMSATS University Islamabad</h1> <br><br> Islamabad Campus</th>
+                    <th>Serial Number <br><br> ------- <br><br>(used by official)</th>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+        <fieldset>
+        <legend>Employment Personal Data</legend>
+
+        <label for="title:">Choose Your Title:</label>
+        <input type="radio" name="title" id="Mrs">
+        <label for="Mr">Mr</label>
+        <input type="radio" name="title" id="Mrs">
+        <label for="Miss">Miss</label>
+        <input type="radio" name="title" id="Miss">
+        <label for="Mrs">Mrs</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="firstname">Enter Your First Name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="enter your first name">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="lastname">Enter Your Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="enter your last name">
+        <br><br>
+
+        <label for="email">Enter Your Email Address(es):</label>
+        <input type="email" name="email" id="email" placeholder="enter email address(es)">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="cell">Enter Your Cell Number:</label>
+        <input type="tel" name="cell" id="cell" placeholder="03xx-xxxxxxx">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="password">Enter Your Password:</label>
+        <input type="password" name="password" id="password" placeholder="password min length 8, max length 15" style="width: 240px;" pattern="{8-15}">
+        <br><br>
+        
+        <label for="dob">Enter Your Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="job">Job Applied For:</label>
+        <input type="text" name="job" id="job" placeholder="enter the job title you are applying for" style="width: 240px;">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="salary">Enter Your Expected Salary:</label>
+        <input type="number" name="salary" id="salary" placeholder="80000-200000">
+        <br><br>
+
+        <label for="status">What Is Your Current Employment Status?</label>
+        <input type="radio" name="status" id="student">
+        <label for="student">Student</label>
+        <input type="radio" name="status" id="unemployed">
+        <label for="unemployed">Unemployed</label>
+        <input type="radio" name="status" id="employed">
+        <label for="employed">Employed</label>
+        <input type="radio" name="status" id="selfemployed">
+        <label for="selfemployed">Self-Employed</label>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="development">Interested in Development:</label>
+        <input type="radio" name="development" id="frontend">
+        <label for="frontend">Front-End</label>
+        <input type="radio" name="development" id="backend">
+        <label for="backend">Back-End</label>
+        <input type="radio" name="development" id="fullstack">
+        <label for="fullstack">Full Stack</label>
+        <br><br>
+
+        <label for="cv">Attach Your CV:</label>
+        <input type="file" name="cv" id="cv">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+
+        <label for="address">Enter your Postal Address:</label>
+        <textarea name="address" id="address" cols="100" rows="3" placeholder="enter your complete postal address"></textarea>
+        </fieldset>
+    </form>
+
+    <br>
+    <input type="submit" value="Apply Now">
+    <input type="reset" value="Cancel Now">
+</body>
+</html>

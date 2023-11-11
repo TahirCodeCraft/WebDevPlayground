@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 244px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .item{
+            border: 2px solid green;
+            background-color: tomato;
+            margin: 5px;
+            padding: 3px;
+            height: 100px;
+            width: 100px;
+            /* flex-direction: row-reverse; */
+            /* display: flex; */
+        }
+    </style>
+</head>
+<body>
+    <h1>This is flex box file</h1>
+    <div class="container">
+        <div class="item" id="box1">First box</div>
+        <div class="item" id="box2">Second box</div>
+        <div class="item" id="box3">Third box</div>
+        <div class="item" id="box4">Forth box</div>
+        <div class="item" id="box5">Fifth box</div>
+        <div class="item" id="box6">Sixth box</div>
+    </div>
+</body>
+</html>
