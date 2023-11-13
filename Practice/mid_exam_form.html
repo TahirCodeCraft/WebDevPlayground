@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" style="text-align: center;">
+        <fieldset>
+            <legend style="text-align: center;">MID EXAM PREPARATION FORM</legend>
+            <label for="firstname">ENTER FIRST NAME</label>
+            <input type="text" id="firstname" pattern="[a-b]{3}-[0-9]{4}" size="26" required><br><br>
+            <label for="lastname">ENTER LAST NAME</label>
+            <input type="text" id="lastname" size="26" required><br><br>
+            <label for="username">ENTER EMAIL</label>
+            <input type="email" id="useremail" size="26" required><br><br>
+
+            <label for="radiobtn">SELECT EXAM</label>
+            <input type="radio" id="111" name="radiobtn">
+            <label for="111">WEB</label>
+            <input type="radio" id="222" name="radiobtn" checked>
+            <label for="222">HCI</label>
+            <input type="radio" id="333" name="radiobtn">
+            <label for="333">SPM</label>
+            <br><br>
+
+            <label for="checkedin">SELECT GENDER</label>
+            <input type="checkbox" name="checkedin" id="444">
+            <label for="444">MALE</label>
+            <input type="checkbox" name="checkedin" id="555" checked>
+            <label for="555">FE-MALE</label>
+            <input type="checkbox" name="checkedin" id="666">
+            <label for="666">BOTH</label>
+
+            <br><br>
+            <input type="button" onclick="alert('WELCOME MID EXAM')" value="SUBMIT FORM">
+            
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

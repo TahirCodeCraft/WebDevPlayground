@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selecters On Html</title>
+    <style>
+        input{
+            display: block;
+        }
+        .container{
+            margin: auto;
+            width: 400px;
+        }
+        input[type="text"]{
+            padding: 10px;
+            border: 3px solid green;
+        }
+        li:nth-child(3n+3){
+            color: rgb(253, 2, 2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" value="submit">
+        </form>
+        <ul>
+            <li class="item" id="item-1">This is first item</li>
+            <li class="item" id="item-2">This is second item </li>
+            <li class="item" id="item-3">This is third item</li>
+            <li class="item" id="item-4">This is forth item</li>
+            <li class="item" id="item-5">This is fifth item</li>
+            <li class="item" id="item-6">This is sixth item</li>
+            <li class="item" id="item-7">This is seventh item</li>
+            <li class="item" id="item-8">This is eight item</li>
+            <li class="item" id="item-9">This is ninth item</li>
+            <li class="item" id="item-10">This is tenth item</li>
+        </ul>
+    </div>
+</body>
+</html>
