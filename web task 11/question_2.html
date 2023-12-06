@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{
+            border: 2px solid black;
+            padding: 8px;
+            display: inline;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <br>
+        <p id="a">Tahir Ahmed Khan SP21-BSE-086</p>
+        <br><br>
+        <button onclick="stop()">Stop Now</button>
+    </div>
+    <script>
+        const myInterval = setInterval(func, 3000);
+        function func(){
+            let element = document.getElementById("a");
+            let color = element.style.backgroundColor;
+            if (color == 'blue'){
+                element.style.backgroundColor = 'green';
+            }
+            else{
+                element.style.backgroundColor = 'blue';
+            }
+        }
+
+        function stop(){
+            clearInterval(myInterval);
+        }
+    </script>
+</body>
+</html>
